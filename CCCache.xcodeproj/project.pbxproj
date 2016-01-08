@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84B0A42C1C101B6C0069D2A1 /* CCCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B0A42B1C101B6C0069D2A1 /* CCCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8407B5CD1C23066B0020F9D2 /* CCMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8407B5CB1C23066B0020F9D2 /* CCMemoryCache.h */; settings = {ASSET_TAGS = (); }; };
+		8407B5CE1C23066B0020F9D2 /* CCMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407B5CC1C23066B0020F9D2 /* CCMemoryCache.m */; settings = {ASSET_TAGS = (); }; };
+		84561BA61C214FAD004876BF /* CCDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 84561BA41C214FAD004876BF /* CCDiskCache.h */; settings = {ASSET_TAGS = (); }; };
+		84561BA71C214FAD004876BF /* CCDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84561BA51C214FAD004876BF /* CCDiskCache.m */; settings = {ASSET_TAGS = (); }; };
+		84937ADA1C3F60B8009866AE /* CCCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 84937AD81C3F60B8009866AE /* CCCache.h */; settings = {ASSET_TAGS = (); }; };
+		84937ADB1C3F60B8009866AE /* CCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84937AD91C3F60B8009866AE /* CCCache.m */; settings = {ASSET_TAGS = (); }; };
 		84B0A4331C101B6C0069D2A1 /* CCCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0A4281C101B6C0069D2A1 /* CCCache.framework */; settings = {ASSET_TAGS = (); }; };
 		84B0A4381C101B6C0069D2A1 /* CCCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B0A4371C101B6C0069D2A1 /* CCCacheTests.m */; };
+		84B0A4431C101D000069D2A1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0A4421C101D000069D2A1 /* CoreFoundation.framework */; };
+		84B0A4451C101D0C0069D2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0A4441C101D0C0069D2A1 /* UIKit.framework */; };
+		84B0A4471C101D230069D2A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0A4461C101D230069D2A1 /* QuartzCore.framework */; };
+		84B0A4491C101D380069D2A1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0A4481C101D380069D2A1 /* libsqlite3.tbd */; };
+		84B0A44D1C101E4C0069D2A1 /* CCKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B0A44B1C101E4C0069D2A1 /* CCKVStorage.h */; settings = {ASSET_TAGS = (); }; };
+		84B0A44E1C101E4C0069D2A1 /* CCKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B0A44C1C101E4C0069D2A1 /* CCKVStorage.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8407B5CB1C23066B0020F9D2 /* CCMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMemoryCache.h; sourceTree = "<group>"; };
+		8407B5CC1C23066B0020F9D2 /* CCMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMemoryCache.m; sourceTree = "<group>"; };
+		84561BA41C214FAD004876BF /* CCDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDiskCache.h; sourceTree = "<group>"; };
+		84561BA51C214FAD004876BF /* CCDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDiskCache.m; sourceTree = "<group>"; };
+		84937AD81C3F60B8009866AE /* CCCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCache.h; sourceTree = "<group>"; };
+		84937AD91C3F60B8009866AE /* CCCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCache.m; sourceTree = "<group>"; };
 		84B0A4281C101B6C0069D2A1 /* CCCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B0A42B1C101B6C0069D2A1 /* CCCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCache.h; sourceTree = "<group>"; };
 		84B0A42D1C101B6C0069D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B0A4321C101B6C0069D2A1 /* CCCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B0A4371C101B6C0069D2A1 /* CCCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCacheTests.m; sourceTree = "<group>"; };
 		84B0A4391C101B6C0069D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B0A4421C101D000069D2A1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		84B0A4441C101D0C0069D2A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84B0A4461C101D230069D2A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84B0A4481C101D380069D2A1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		84B0A44B1C101E4C0069D2A1 /* CCKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCKVStorage.h; sourceTree = "<group>"; };
+		84B0A44C1C101E4C0069D2A1 /* CCKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCKVStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B0A4491C101D380069D2A1 /* libsqlite3.tbd in Frameworks */,
+				84B0A4471C101D230069D2A1 /* QuartzCore.framework in Frameworks */,
+				84B0A4451C101D0C0069D2A1 /* UIKit.framework in Frameworks */,
+				84B0A4431C101D000069D2A1 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +79,8 @@
 		84B0A41E1C101B6C0069D2A1 = {
 			isa = PBXGroup;
 			children = (
-				84B0A42A1C101B6C0069D2A1 /* CCCache */,
+				84B0A44A1C101DFE0069D2A1 /* CCCache */,
+				84B0A42A1C101B6C0069D2A1 /* Supporting Files */,
 				84B0A4361C101B6C0069D2A1 /* CCCacheTests */,
 				84B0A4291C101B6C0069D2A1 /* Products */,
 			);
@@ -68,12 +95,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84B0A42A1C101B6C0069D2A1 /* CCCache */ = {
+		84B0A42A1C101B6C0069D2A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84B0A42B1C101B6C0069D2A1 /* CCCache.h */,
+				84B0A4461C101D230069D2A1 /* QuartzCore.framework */,
+				84B0A4441C101D0C0069D2A1 /* UIKit.framework */,
+				84B0A4421C101D000069D2A1 /* CoreFoundation.framework */,
+				84B0A4481C101D380069D2A1 /* libsqlite3.tbd */,
 				84B0A42D1C101B6C0069D2A1 /* Info.plist */,
 			);
+			name = "Supporting Files";
 			path = CCCache;
 			sourceTree = "<group>";
 		};
@@ -86,6 +117,21 @@
 			path = CCCacheTests;
 			sourceTree = "<group>";
 		};
+		84B0A44A1C101DFE0069D2A1 /* CCCache */ = {
+			isa = PBXGroup;
+			children = (
+				84B0A44B1C101E4C0069D2A1 /* CCKVStorage.h */,
+				84B0A44C1C101E4C0069D2A1 /* CCKVStorage.m */,
+				84561BA41C214FAD004876BF /* CCDiskCache.h */,
+				84561BA51C214FAD004876BF /* CCDiskCache.m */,
+				8407B5CB1C23066B0020F9D2 /* CCMemoryCache.h */,
+				8407B5CC1C23066B0020F9D2 /* CCMemoryCache.m */,
+				84937AD81C3F60B8009866AE /* CCCache.h */,
+				84937AD91C3F60B8009866AE /* CCCache.m */,
+			);
+			name = CCCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +139,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B0A42C1C101B6C0069D2A1 /* CCCache.h in Headers */,
+				84561BA61C214FAD004876BF /* CCDiskCache.h in Headers */,
+				84937ADA1C3F60B8009866AE /* CCCache.h in Headers */,
+				8407B5CD1C23066B0020F9D2 /* CCMemoryCache.h in Headers */,
+				84B0A44D1C101E4C0069D2A1 /* CCKVStorage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B0A44E1C101E4C0069D2A1 /* CCKVStorage.m in Sources */,
+				8407B5CE1C23066B0020F9D2 /* CCMemoryCache.m in Sources */,
+				84937ADB1C3F60B8009866AE /* CCCache.m in Sources */,
+				84561BA71C214FAD004876BF /* CCDiskCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,10 +365,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCCache/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxk.CCCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,10 +383,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCCache/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxk.CCCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -374,6 +431,7 @@
 				84B0A43E1C101B6C0069D2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84B0A43F1C101B6C0069D2A1 /* Build configuration list for PBXNativeTarget "CCCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +440,7 @@
 				84B0A4411C101B6C0069D2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
